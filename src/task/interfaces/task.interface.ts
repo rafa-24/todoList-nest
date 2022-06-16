@@ -1,0 +1,1 @@
+// interfaces de nuestro programa y ayudas para el manejo de errores

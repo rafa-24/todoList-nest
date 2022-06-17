@@ -1,0 +1,116 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Task",
+    "dateExported": "2022-06-17T23:34:52.880Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2cde08e7-aa06-4db6-9570-182b8fcb4e7f",
+            "colId": "936b664e-b072-4a1b-98e7-91de1d6dbb15",
+            "containerId": "",
+            "name": "localhost:3000/task/62aadd610296ec51af09d26d",
+            "url": "localhost:3000/task/62aadd610296ec51af09d26d",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-06-17T23:30:40.389Z",
+            "modified": "2022-06-17T23:30:40.389Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"calculo integral examen\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "56f8c7b1-4244-4121-b642-44483a358389",
+            "colId": "936b664e-b072-4a1b-98e7-91de1d6dbb15",
+            "containerId": "",
+            "name": "localhost:3000/task",
+            "url": "localhost:3000/task",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-06-17T23:32:18.310Z",
+            "modified": "2022-06-17T23:32:18.310Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"examen de calculo\",\n    \"description\": \"parcial segundo corte\",\n    \"expiration_date_at\":\"06/24/2022\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f0c394d9-86e4-42bd-bd4c-67354427957e",
+            "colId": "936b664e-b072-4a1b-98e7-91de1d6dbb15",
+            "containerId": "",
+            "name": "localhost:3000/task/create",
+            "url": "localhost:3000/task/create",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2022-06-17T23:32:44.307Z",
+            "modified": "2022-06-17T23:32:44.307Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"examen de calculo\",\n    \"description\": \"parcial segundo corte\",\n    \"expiration_date_at\":\"06/24/2022\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "df4f0a16-addf-450b-8463-6982bbd0cce4",
+            "colId": "936b664e-b072-4a1b-98e7-91de1d6dbb15",
+            "containerId": "",
+            "name": "localhost:3000/task/update?taskID=62ad0cec2164ae3968279d96",
+            "url": "localhost:3000/task/update?taskID=62ad0cec2164ae3968279d96",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2022-06-17T23:33:09.585Z",
+            "modified": "2022-06-17T23:33:09.585Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "taskID",
+                    "value": "62ad0cec2164ae3968279d96",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"calculo integral examen\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b725282-2cd1-454d-98a5-26ad7fd65436",
+            "colId": "936b664e-b072-4a1b-98e7-91de1d6dbb15",
+            "containerId": "",
+            "name": "localhost:3000/task/delete?taskID=62ad0cec2164ae3968279d96",
+            "url": "localhost:3000/task/delete?taskID=62ad0cec2164ae3968279d96",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2022-06-17T23:33:51.180Z",
+            "modified": "2022-06-17T23:33:51.180Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "taskID",
+                    "value": "62ad0cec2164ae3968279d96",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"calculo integral examen\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
